@@ -2,8 +2,8 @@ import { fetchAllProducts } from "../lib/api";
 import NavBar from "../components/navBar";
 import Header from "../components/header";
 
-import Image from "next/Image";
-import Link from "next/Link";
+import Image from "next/image";
+import Link from "next/link";
 
 export const getStaticProps = async () => {
   const products = await fetchAllProducts();
