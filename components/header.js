@@ -44,6 +44,8 @@ export default function Example() {
       <Image
         src="https://images.prismic.io/containerstoriesproduction/b5b0a0438c661fb01bc0ffa28c6676681e0981a9_shoe-boxes_black_1600x1067.jpg?auto=format"
         alt=""
+        width={500}
+        height={500}
         className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center"
       />
       <div className="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl">

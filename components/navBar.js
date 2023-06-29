@@ -31,11 +31,15 @@ export default function Example() {
                     className="block h-20 w-auto lg:hidden"
                     src="https://cdn.sanity.io/images/o0o2tn5x/production/853f17bcb1c0c264dab052006ef61fcf2893987f-1200x675.gif?"
                     alt="Your Company"
+                    width={500}
+                    height={500}
                   />
                   <Image
                     className="hidden h-24 w-auto lg:block"
                     src="https://cdn.sanity.io/images/o0o2tn5x/production/853f17bcb1c0c264dab052006ef61fcf2893987f-1200x675.gif?"
                     alt="Your Company"
+                    width={500}
+                    height={500}
                   />
                 </div>
                 <div className="hidden sm:ml-6 sm:flex sm:space-x-8">

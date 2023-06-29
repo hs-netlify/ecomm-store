@@ -31,6 +31,8 @@ export default function Home({ products }) {
                 <Image
                   src={product.images[0].image.url}
                   alt={product.images[0].image.altImage}
+                  width={500}
+                  height={500}
                   className="h-full w-full object-cover object-center sm:h-full sm:w-full"
                 />
               </div>
