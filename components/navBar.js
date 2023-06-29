@@ -33,6 +33,7 @@ export default function Example() {
                     alt="Your Company"
                     width={500}
                     height={500}
+                    unoptimized={true}
                   />
                   <Image
                     className="hidden h-24 w-auto lg:block"
@@ -40,6 +41,7 @@ export default function Example() {
                     alt="Your Company"
                     width={500}
                     height={500}
+                    unoptimized={true}
                   />
                 </div>
                 <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
