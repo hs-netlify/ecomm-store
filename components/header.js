@@ -4,6 +4,8 @@ import {
   PhoneIcon,
 } from "@heroicons/react/20/solid";
 
+import Image from "next/Image";
+
 const cards = [
   {
     name: "Sales",
@@ -39,7 +41,7 @@ export default function Example() {
         </div>
       </div>
       <div className="bg-gray-800 absolute top-0 left-0 h-full w-full bg-opacity-80"></div>
-      <img
+      <Image
         src="https://images.prismic.io/containerstoriesproduction/b5b0a0438c661fb01bc0ffa28c6676681e0981a9_shoe-boxes_black_1600x1067.jpg?auto=format"
         alt=""
         className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center"
