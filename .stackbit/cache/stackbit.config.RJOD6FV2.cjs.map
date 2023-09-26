@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../stackbit.config.js"],
+  "sourcesContent": ["import { ContentfulContentSource } from \"@stackbit/cms-contentful\";\nimport { defineStackbitConfig } from \"@stackbit/types\";\n\nexport default defineStackbitConfig({\n  stackbitVersion: \"~0.6.0\",\n  contentSources: [\n    new ContentfulContentSource({\n      spaceId: process.env.CONTENTFUL_SPACE_ID,\n      environment: process.env.CONTENTFUL_ENVIRONMENT || \"master\",\n      previewToken: process.env.CONTENTFUL_PREVIEW_TOKEN,\n      accessToken: process.env.CONTENTFUL_MANAGEMENT_TOKEN,\n    }),\n  ],\n  modelExtensions: [{ name: \"page\", type: \"page\", urlPath: \"/\" }],\n});\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,4BAAwC;AACxC,mBAAqC;AAErC,IAAO,8BAAQ,mCAAqB;AAAA,EAClC,iBAAiB;AAAA,EACjB,gBAAgB;AAAA,IACd,IAAI,8CAAwB;AAAA,MAC1B,SAAS,QAAQ,IAAI;AAAA,MACrB,aAAa,QAAQ,IAAI,0BAA0B;AAAA,MACnD,cAAc,QAAQ,IAAI;AAAA,MAC1B,aAAa,QAAQ,IAAI;AAAA,IAC3B,CAAC;AAAA,EACH;AAAA,EACA,iBAAiB,CAAC,EAAE,MAAM,QAAQ,MAAM,QAAQ,SAAS,IAAI,CAAC;AAChE,CAAC;",
+  "names": []
+}
