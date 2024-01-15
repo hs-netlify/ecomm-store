@@ -93,21 +93,20 @@ const CustomForm = ({ form }) => {
   return (
     <div className="w-full flex flex-col items-center justify-center py-10">
       <div className="h-40 w-full bg-black flex items-center p-20 relative overflow-hidden shadow">
+        <h2 className="z-10 text-4xl font-bold tracking-tight text-white sm:text-6xl">
+          {form?.label}
+        </h2>
         <img
           src="images/trainers.png"
           className="w-full h-40 object-cover opacity-40 absolute top-0 left-0 "
         />
-
-        <h2 className="z-10 text-4xl font-bold tracking-tight text-white sm:text-6xl">
-          {form?.label}
-        </h2>
       </div>
       <form
         data-sb-object-id={form?.id}
         name={form?.name}
         method="post"
-        netlify={true}
-        className="text-black flex flex-col gap-4 bg-white w-96 mt-20"
+        netlify
+        className="text-black flex flex-col gap-4 bg-white w-96"
       >
         <input type="hidden" name="form-name" value={form?.name} />
 
