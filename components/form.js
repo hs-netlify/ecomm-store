@@ -90,6 +90,18 @@ const inputHandler = (input, i) => {
 };
 
 const CustomForm = ({ form }) => {
+  const handleSubmit = (e) => {
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: encode({ "form-name": "contact", ...this.state }),
+    })
+      .then(() => alert("Success!"))
+      .catch((error) => alert(error));
+
+    e.preventDefault();
+  };
+
   return (
     <div className="w-full flex flex-col items-center justify-center py-10">
       <div className="h-40 w-full bg-black flex items-center p-20 relative overflow-hidden shadow">
@@ -105,7 +117,8 @@ const CustomForm = ({ form }) => {
         data-sb-object-id={form?.id}
         name={form?.name}
         method="post"
-        netlify
+        data-netlify="true"
+        onSubmit={handleSubmit}
         className="text-black flex flex-col gap-4 bg-white w-96"
       >
         <input type="hidden" name="form-name" value={form?.name} />
