@@ -36,7 +36,7 @@ export default function Example() {
             Find your perfect fit.
           </h2>
           <p className="mt-6 text-lg leading-8 text-gray-300">
-            Top quality trainers for any situation
+            Top quality trainers for any situation!!
           </p>
         </div>
       </div>
