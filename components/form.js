@@ -127,10 +127,7 @@ const CustomForm = ({ form }) => {
         {form?.inputs.map((input, i) => {
           return inputHandler(input, i);
         })}
-        <button
-          className="bg-blue-700 px-3 py-2 hover:bg-blue-600 text-white rounded shadow"
-          type="submit"
-        >
+        <button className="bg-blue-700 px-3 py-2 hover:bg-blue-600 text-white rounded shadow">
           Submit
         </button>
       </form>
