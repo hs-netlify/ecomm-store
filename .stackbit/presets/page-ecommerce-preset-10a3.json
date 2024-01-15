@@ -1,0 +1,40 @@
+{
+    "model": "page",
+    "srcType": "contentful",
+    "srcProjectId": "xc06g5bdxsi2",
+    "presets": [
+        {
+            "label": "Ecommerce Preset",
+            "locale": null,
+            "metadata": {
+                "categories": [
+                    "Page"
+                ],
+                "canDelete": true
+            },
+            "data": {
+                "products": [
+                    {
+                        "$$ref": "RTL1p5XbW89OSSaGP39DJ",
+                        "$$type": "product"
+                    },
+                    {
+                        "$$ref": "5vwtAIXXPB9uegTFuEnDPC",
+                        "$$type": "product"
+                    },
+                    {
+                        "$$ref": "kv0NDtCyTRNZ9iKzhvx1Z",
+                        "$$type": "product"
+                    },
+                    {
+                        "$$ref": "4Hyp6kdOZ5cRL7XPu4xJX3",
+                        "$$type": "product"
+                    }
+                ],
+                "slug": "/",
+                "name": "Homepage"
+            },
+            "thumbnail": "images/page-ecommerce-preset-10a3.png"
+        }
+    ]
+}

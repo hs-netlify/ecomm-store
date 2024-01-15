@@ -1,0 +1,30 @@
+{
+    "model": "product",
+    "srcType": "contentful",
+    "srcProjectId": "xc06g5bdxsi2",
+    "presets": [
+        {
+            "label": "New Product card",
+            "locale": "en-US",
+            "metadata": {
+                "categories": [
+                    "Product card"
+                ],
+                "canDelete": true
+            },
+            "data": {
+                "name": "Veja!!",
+                "price": 200,
+                "description": "Stylish white trainers with typical Veja class!!",
+                "sku": "12341532513",
+                "images": [
+                    {
+                        "$$ref": "1sR7DcEDDfXCzyd67USdVQ",
+                        "$$type": "image"
+                    }
+                ]
+            },
+            "thumbnail": "images/product-new-product-card-648f.png"
+        }
+    ]
+}

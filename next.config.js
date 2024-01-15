@@ -1,5 +1,11 @@
+const localization = require("./lib/localization");
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  i18n: {
+    locales: localization.locales,
+    defaultLocale: localization.defaultLocale,
+  },
   reactStrictMode: true,
   swcMinify: true,
   images: {

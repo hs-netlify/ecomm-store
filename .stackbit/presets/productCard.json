@@ -1,0 +1,22 @@
+{
+  "model": "product",
+  "srcType": "contentful",
+  "presets": [
+    {
+      "label": "Product Card",
+      "metadata": {
+        "categeories": ["product"],
+        "canDelete": true
+      },
+      "data": {
+        "name": "New product",
+        "description": "This is a description",
+        "image": {
+          "$$ref": "4JEaWfOHY6aJMDJGlo7U4J",
+          "$$type": "__image_model"
+        },
+        "altImage": "My Alt Text"
+      }
+    }
+  ]
+}

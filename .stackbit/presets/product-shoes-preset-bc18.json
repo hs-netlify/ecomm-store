@@ -1,0 +1,30 @@
+{
+    "model": "product",
+    "srcType": "contentful",
+    "srcProjectId": "xc06g5bdxsi2",
+    "presets": [
+        {
+            "label": "Shoes Preset",
+            "locale": null,
+            "metadata": {
+                "categories": [
+                    "Product card"
+                ],
+                "canDelete": true
+            },
+            "data": {
+                "name": "Vans",
+                "price": 190,
+                "description": "These are cool vans!!!",
+                "sku": "123456788",
+                "images": [
+                    {
+                        "$$ref": "38LVgvMcZNROvpO4SwQUsN",
+                        "$$type": "image"
+                    }
+                ]
+            },
+            "thumbnail": "images/product-shoes-preset-bc18.png"
+        }
+    ]
+}

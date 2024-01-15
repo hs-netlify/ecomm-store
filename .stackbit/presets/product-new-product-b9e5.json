@@ -1,0 +1,30 @@
+{
+    "model": "product",
+    "srcType": "contentful",
+    "srcProjectId": "xc06g5bdxsi2",
+    "presets": [
+        {
+            "label": "New product",
+            "locale": null,
+            "metadata": {
+                "categories": [
+                    "Product card"
+                ],
+                "canDelete": true
+            },
+            "data": {
+                "name": null,
+                "price": 200,
+                "description": null,
+                "sku": "12341532513",
+                "images": [
+                    {
+                        "$$ref": "1sR7DcEDDfXCzyd67USdVQ",
+                        "$$type": "image"
+                    }
+                ]
+            },
+            "thumbnail": "images/product-new-product-b9e5.png"
+        }
+    ]
+}

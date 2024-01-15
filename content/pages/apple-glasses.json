@@ -1,0 +1,25 @@
+{
+    "type": "AltPage",
+    "title": "Apple Glasses",
+    "slug": "apple-glasses",
+    "sections": [
+        {
+            "type": "AltHero",
+            "title": "Enchance your every day experience",
+            "description": "Try out apple glasse and see the world in a different way.",
+            "heroImage": "/images/apple_glasses.jpeg",
+            "reverseContent": false,
+            "backgroundColor": "#484848",
+            "styles": {
+                "title": {
+                    "fontSize": 46
+                },
+                "description": {
+                    "fontStyle": "italic"
+                }
+            }
+        }
+    ],
+    "showJson": true,
+    "markdown_content": ""
+}

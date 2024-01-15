@@ -1,0 +1,36 @@
+{
+    "model": "AltHero",
+    "srcType": "git",
+    "srcProjectId": "9a0364b9",
+    "presets": [
+        {
+            "label": "Apple Glasses",
+            "locale": null,
+            "metadata": {
+                "categories": [
+                    "Hero Banners"
+                ],
+                "canDelete": true
+            },
+            "data": {
+                "title": "Enchance your every day experience",
+                "description": "Try out apple glasse and see the world in a different way.",
+                "heroImage": {
+                    "$$ref": "stackbit_asset_id:static:images/apple_glasses.jpeg",
+                    "$$type": "__image_model"
+                },
+                "reverseContent": false,
+                "backgroundColor": "#484848",
+                "styles": {
+                    "title": {
+                        "fontSize": 46
+                    },
+                    "description": {
+                        "fontStyle": "italic"
+                    }
+                }
+            },
+            "thumbnail": "images/alt-hero-apple-glasses-83e5.png"
+        }
+    ]
+}

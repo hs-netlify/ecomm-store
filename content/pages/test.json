@@ -1,0 +1,43 @@
+{
+    "type": "AltPage",
+    "title": "Test page 1",
+    "slug": "test",
+    "markdown_content": "",
+    "sections": [
+        {
+            "type": "AltHero",
+            "reverseContent": false,
+            "backgroundColor": "#484848",
+            "title": "Enchance your every day experience",
+            "description": "Try out apple glasse and see the world in a different way.",
+            "heroImage": "/images/apple_glasses.jpeg",
+            "styles": {
+                "title": {
+                    "fontSize": 46
+                },
+                "description": {
+                    "fontStyle": "italic"
+                }
+            }
+        },
+        {
+            "type": "AltHero",
+            "title": "Process your data",
+            "description": "Handle all of your backhaul through lamba functions on Neltlify",
+            "heroImage": "/images/awslambda.svg",
+            "reverseContent": true,
+            "backgroundColor": "#7c7c7c",
+            "styles": {
+                "title": {
+                    "fontSize": 46
+                },
+                "description": {
+                    "fontStyle": "italic"
+                }
+            }
+        }
+    ],
+    "backgroundColor": "#c23b3b",
+    " title": "aliqua acsi aegrus velociter",
+    "showJson": false
+}
