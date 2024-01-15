@@ -118,6 +118,7 @@ const CustomForm = ({ form }) => {
         name={form?.name}
         method="post"
         data-netlify="true"
+        netlify
         onSubmit={handleSubmit}
         className="text-black flex flex-col gap-4 bg-white w-96"
       >
