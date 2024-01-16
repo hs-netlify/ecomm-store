@@ -1,39 +1,5 @@
 import React from "react";
 
-const inputs = [
-  {
-    name: "first-name",
-    label: "First Name",
-    type: "input",
-    inputType: "text",
-  },
-  {
-    name: "Email",
-    type: "input",
-    label: "Email",
-    inputType: "email",
-  },
-  {
-    name: "message",
-    label: "Message",
-    customStyle: "h-20",
-    type: "textArea",
-  },
-  {
-    name: "role",
-    label: "Role",
-    type: "dropdown",
-
-    options: [
-      "Director",
-      "Manager",
-      "Engineer",
-      "IT Specialist",
-      "Product Manager/Owner",
-    ],
-  },
-];
-
 const inputHandler = (input, i) => {
   const inputClass =
     "bg-white w-full px-3 py-2 border border-black rounded shadow";
