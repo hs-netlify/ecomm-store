@@ -91,14 +91,6 @@ const inputHandler = (input, i) => {
 
 const CustomForm = ({ form }) => {
   const handleSubmit = (e) => {
-    fetch("/", {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({ "form-name": "contact", ...this.state }),
-    })
-      .then(() => alert("Success!"))
-      .catch((error) => alert(error));
-
     e.preventDefault();
   };
 
@@ -116,9 +108,7 @@ const CustomForm = ({ form }) => {
       <form
         data-sb-object-id={form?.id}
         name={form?.name}
-        method="post"
         data-netlify="true"
-        netlify
         onSubmit={handleSubmit}
         className="text-black flex flex-col gap-4 bg-white w-96"
       >
